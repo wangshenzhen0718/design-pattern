@@ -1,6 +1,8 @@
 package com.wang;
 
 import com.alibaba.fastjson.JSON;
+import com.wang.p1_factory.factory_method.old_2.CacheService;
+import com.wang.p1_factory.factory_method.old_2.CacheServiceImpl;
 import com.wang.p1_factory.simple.factory.ICommodity;
 import com.wang.p1_factory.simple.factory.StoreFactory;
 import com.wang.p1_factory.simple.old.work.AwardReq;
@@ -88,5 +90,13 @@ public class ApiTest {
         ICommodity commodityService_3 = storeFactory.getCommodityService(3);
         commodityService_3.sendCommodity("10001", "AQY1xjkUodl8LO975GdfrYUio", null, null);
 
+    }
+
+    @Test
+    public void test_CacheService() {
+        CacheService cacheService = new CacheServiceImpl();
+        cacheService.set("user_name_01", "wsz", 1);
+        String val01 = cacheService.get("user_name_01", 1);
+        System.out.println(val01);
     }
 }
