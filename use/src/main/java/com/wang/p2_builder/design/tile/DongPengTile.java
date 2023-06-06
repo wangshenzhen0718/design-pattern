@@ -1,7 +1,7 @@
-package com.wang.p2_builder.old.tile;
+package com.wang.p2_builder.design.tile;
 
 
-import com.wang.p2_builder.old.Matter;
+import com.wang.p2_builder.design.Matter;
 
 import java.math.BigDecimal;
 

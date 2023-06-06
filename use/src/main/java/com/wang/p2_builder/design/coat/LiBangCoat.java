@@ -1,5 +1,5 @@
-package com.wang.p2_builder.old.coat;
-import com.wang.p2_builder.old.Matter;
+package com.wang.p2_builder.design.coat;
+import com.wang.p2_builder.design.Matter;
 
 import java.math.BigDecimal;
 

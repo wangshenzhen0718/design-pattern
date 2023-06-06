@@ -1,56 +1,57 @@
-package com.wang.p2_builder.design;
+package com.wang.p2_builder.pattern;
 
-import com.wang.p2_builder.old.Matter;
+import com.wang.p2_builder.design.Matter;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 装修包
- */
-public class DecorationPackageMenu implements IMenu {
+public class DecorationPackageMenu implements IMenu{
+    private BigDecimal area;
+    private String grade;
 
-    private List<Matter> list = new ArrayList<Matter>();  // 装修清单
-    private BigDecimal price = BigDecimal.ZERO;      // 装修价格
+    private List<Matter> list=new ArrayList<>();
+    private BigDecimal price=BigDecimal.ZERO;
 
-    private BigDecimal area;  // 面积
-    private String grade;     // 装修等级；豪华欧式、轻奢田园、现代简约
+    public DecorationPackageMenu(BigDecimal area,String grade) {
+        this.area = area;
+        this.grade=grade;
 
-    private DecorationPackageMenu() {
+    }
+    private DecorationPackageMenu(){
+
     }
 
-    public DecorationPackageMenu(Double area, String grade) {
-        this.area = new BigDecimal(area);
-        this.grade = grade;
-    }
-
+    @Override
     public IMenu appendCeiling(Matter matter) {
         list.add(matter);
-        price = price.add(area.multiply(new BigDecimal("0.2")).multiply(matter.price()));
+        price=price.add(area.multiply(new BigDecimal("0.2")).multiply(matter.price()));
         return this;
     }
 
+    @Override
     public IMenu appendCoat(Matter matter) {
         list.add(matter);
-        price = price.add(area.multiply(new BigDecimal("1.4")).multiply(matter.price()));
+        price=price.add(area.multiply(new BigDecimal("1.4")).multiply(matter.price()));
         return this;
     }
 
+    @Override
     public IMenu appendFloor(Matter matter) {
         list.add(matter);
-        price = price.add(area.multiply(matter.price()));
+        price=price.add(area.multiply(matter.price()));
         return this;
     }
 
+    @Override
     public IMenu appendTile(Matter matter) {
         list.add(matter);
-        price = price.add(area.multiply(matter.price()));
+        price=price.add(area.multiply(matter.price()));
         return this;
     }
 
+    @Override
     public String getDetail() {
-
         StringBuilder detail = new StringBuilder("\r\n-------------------------------------------------------\r\n" +
                 "装修清单" + "\r\n" +
                 "套餐等级：" + grade + "\r\n" +
@@ -64,5 +65,4 @@ public class DecorationPackageMenu implements IMenu {
 
         return detail.toString();
     }
-
 }

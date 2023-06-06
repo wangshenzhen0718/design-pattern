@@ -1,4 +1,4 @@
-package com.wang.p2_builder.old;
+package com.wang.p2_builder.design;
 
 import java.math.BigDecimal;
 
