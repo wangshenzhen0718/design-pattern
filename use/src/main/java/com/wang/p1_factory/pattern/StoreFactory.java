@@ -4,6 +4,13 @@ import com.wang.p1_factory.pattern.impl.CardCommodityService;
 import com.wang.p1_factory.pattern.impl.CouponCommodityService;
 import com.wang.p1_factory.pattern.impl.GoodsCommodityService;
 
+/**
+ * @Author:wsz
+ * @Date: 2023/6/6 22:24
+ * @Description:工厂方法模式：在父类中提供一个创建对象的方法， 允许子类决定实例化对象的类型。
+ * @Version: 1.0
+ * @Since: 1.0
+ */
 public class StoreFactory {
 
     public ICommodity getCommodityService(Integer commodityType) {

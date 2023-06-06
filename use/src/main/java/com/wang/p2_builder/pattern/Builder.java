@@ -9,7 +9,14 @@ import com.wang.p2_builder.design.tile.DongPengTile;
 import com.wang.p2_builder.design.tile.MarcoPoloTile;
 
 import java.math.BigDecimal;
-
+/**
+ * @Author:wsz
+ * @Date: 2023/6/6 22:18
+ * @Description:建造者模式：一些基本物料不会变，而其组合经常变化的时候，就可以选择这样的设计模式来构建代码。
+ * 在建造者类内部处理构建过程
+ * @Version: 1.0
+ * @Since: 1.0
+ */
 public class Builder {
 
     public IMenu levelOne(BigDecimal area){
