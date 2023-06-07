@@ -1,12 +1,12 @@
-package com.wang.p2_builder.pattern;
+package com.wang.p3_builder.pattern;
 
-import com.wang.p2_builder.design.ceiling.LevelOneCeiling;
-import com.wang.p2_builder.design.ceiling.LevelTwoCeiling;
-import com.wang.p2_builder.design.coat.DuluxCoat;
-import com.wang.p2_builder.design.coat.LiBangCoat;
-import com.wang.p2_builder.design.floor.ShengXiangFloor;
-import com.wang.p2_builder.design.tile.DongPengTile;
-import com.wang.p2_builder.design.tile.MarcoPoloTile;
+import com.wang.p3_builder.design.ceiling.LevelOneCeiling;
+import com.wang.p3_builder.design.ceiling.LevelTwoCeiling;
+import com.wang.p3_builder.design.coat.DuluxCoat;
+import com.wang.p3_builder.design.coat.LiBangCoat;
+import com.wang.p3_builder.design.floor.ShengXiangFloor;
+import com.wang.p3_builder.design.tile.DongPengTile;
+import com.wang.p3_builder.design.tile.MarcoPoloTile;
 
 import java.math.BigDecimal;
 /**

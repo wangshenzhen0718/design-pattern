@@ -1,6 +1,6 @@
 package com.wang;
 
-import com.wang.p2_builder.pattern.Builder;
+import com.wang.p3_builder.pattern.Builder;
 import org.junit.Test;
 
 import java.math.BigDecimal;

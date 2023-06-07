@@ -1,6 +1,6 @@
-package com.wang.p2_builder.pattern;
+package com.wang.p3_builder.pattern;
 
-import com.wang.p2_builder.design.Matter;
+import com.wang.p3_builder.design.Matter;
 
 public interface IMenu {
 
