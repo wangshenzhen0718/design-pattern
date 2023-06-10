@@ -1,4 +1,4 @@
-package com.wang.p5_adapter.old.mq;
+package com.wang.p6_adapter.design;
 
 import com.alibaba.fastjson.JSON;
 

@@ -1,4 +1,4 @@
-package com.wang.p5_adapter.old.service;
+package com.wang.p6_adapter.design.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

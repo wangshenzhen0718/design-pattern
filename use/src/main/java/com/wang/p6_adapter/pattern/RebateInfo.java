@@ -1,4 +1,4 @@
-package com.wang.p5_adapter.advance;
+package com.wang.p6_adapter.pattern;
 
 import java.util.Date;
 
