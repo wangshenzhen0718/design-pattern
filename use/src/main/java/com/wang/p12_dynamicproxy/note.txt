@@ -1,0 +1,1 @@
+参考模块：p2_abstract_factory
