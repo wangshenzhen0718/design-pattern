@@ -1,8 +1,6 @@
 package com.wang;
 
 import com.alibaba.fastjson.JSON;
-import com.wang.p11_p11_flyweight.pattern.Activity;
-import com.wang.p11_p11_flyweight.pattern.ActivityController;
 import com.wang.p13_responselink.design.AuthService;
 import com.wang.p13_responselink.pattern.AuthLink;
 import com.wang.p13_responselink.pattern.Level1AuthLink;
@@ -15,7 +13,7 @@ import org.slf4j.LoggerFactory;
 import java.text.ParseException;
 import java.util.Date;
 
-public class P12_ResponseLink {
+public class P13_ResponseLink {
 
     @Test
     public void test_queryActivityInfo() throws ParseException {
