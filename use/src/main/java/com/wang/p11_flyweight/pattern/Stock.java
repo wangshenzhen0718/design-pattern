@@ -1,4 +1,4 @@
-package com.wang.p11_p11_flyweight.pattern;
+package com.wang.p11_flyweight.pattern;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

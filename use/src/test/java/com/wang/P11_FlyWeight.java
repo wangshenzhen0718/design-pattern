@@ -1,8 +1,8 @@
 package com.wang;
 
 import com.alibaba.fastjson.JSON;
-import com.wang.p11_p11_flyweight.pattern.Activity;
-import com.wang.p11_p11_flyweight.pattern.ActivityController;
+import com.wang.p11_flyweight.pattern.Activity;
+import com.wang.p11_flyweight.pattern.ActivityController;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

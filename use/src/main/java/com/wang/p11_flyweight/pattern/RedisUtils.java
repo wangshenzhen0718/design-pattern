@@ -1,4 +1,4 @@
-package com.wang.p11_p11_flyweight.pattern;
+package com.wang.p11_flyweight.pattern;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

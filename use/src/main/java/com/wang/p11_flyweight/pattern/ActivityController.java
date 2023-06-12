@@ -1,4 +1,4 @@
-package com.wang.p11_p11_flyweight.pattern;
+package com.wang.p11_flyweight.pattern;
 /**
  * @Author:wsz
  * @Date: 2023/6/11 14:33
