@@ -1,7 +1,6 @@
 package com.wang;
 
 import com.alibaba.fastjson.JSON;
-import com.wang.p13_responselink.pattern.AuthLink;
 import com.wang.p17_memento.pattern.Admin;
 import com.wang.p17_memento.pattern.ConfigFile;
 import com.wang.p17_memento.pattern.ConfigOriginator;
