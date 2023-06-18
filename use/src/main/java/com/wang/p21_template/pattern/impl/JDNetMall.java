@@ -35,9 +35,8 @@ public class JDNetMall extends NetMall {
     }
 
     public String createBase64(Map<String, String> goodsInfo) {
-        BASE64Encoder encoder = new BASE64Encoder();
         logger.info("模拟生成京东商品base64海报");
-        return encoder.encode(JSON.toJSONString(goodsInfo).getBytes());
+        return "";
     }
 
 }

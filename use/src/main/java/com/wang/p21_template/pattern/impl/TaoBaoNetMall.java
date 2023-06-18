@@ -38,9 +38,9 @@ public class TaoBaoNetMall extends NetMall {
 
     @Override
     public String createBase64(Map<String, String> goodsInfo) {
-        BASE64Encoder encoder = new BASE64Encoder();
+
         logger.info("模拟生成淘宝商品base64海报");
-        return encoder.encode(JSON.toJSONString(goodsInfo).getBytes());
+        return "";
     }
 
 }
